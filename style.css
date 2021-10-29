@@ -1,0 +1,28 @@
+.back{
+    background-image:url("back.jfif");
+    background-position:center;
+    background-size:cover;
+}
+.btn-success:hover{
+    background-color:gold;
+    animation-name:example;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+}
+h3{
+    font-size:30px!important;
+}
+canvas{
+    border:3px solid white;
+    animation-name:Snap;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+}
+@keyframes Snap{
+    from{box-shadow:10px 10px 108px white;}
+    to{box-shadow:10px 10px 108px green;}
+}
+@keyframes example{
+    from{font-size:30px;}
+    to{font-size:80px;}
+}
